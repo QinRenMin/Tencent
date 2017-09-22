@@ -4,28 +4,20 @@
     <meta charset="UTF-8">
     <title>腾讯云登陆界面</title>
     <link href="Tencent.css" rel="stylesheet" type="text/css" />
-
-
-    <style>
-        body{
-            background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/login-regist/css/img/qcloud-login-bg.jpg?nowebp);
-        }
-
-    </style>
 </head>
 
 
 <body>
 <div>
-<div>
+
+<div id = 'header'>
     <br/>
-    <img width="50" height="50" src="腾讯云.png">
-    <a href="url" class="title" style="color: white">腾讯云</a>
+    <a href="#"> <img width="50" height="50" src="腾讯云.png"></a>
+    <a  href="#" class="title" style="color: white">腾讯云</a>
     <hr size="1">
 
 
 </div>
-<br/><br/><br/>
 
 <div id="div2">
     <img src="https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/login-regist/css/img/event/icon.svg" alt="">
@@ -45,7 +37,7 @@
 <div id="div3">
 <form>
     <ul>
-        <h2 align="center">邮箱登陆</h2>
+        <h1 align="center">邮箱登陆</h1>
         <ol>
             <input  class="border" type = "text" name = "username" value = "" maxlength="18" placeholder="邮箱地址/DNSPod账号"><br/><br/>
         </ol>
@@ -53,27 +45,63 @@
             <input   class="border" name = "userpassword"  type = "password" value = "" maxlength="10" placeholder = "密码"><br/><br/>
         </ol>
         <ol>
-            <input class="btn_send" type  = "submit" id = "btn_send" value = "登陆"><br/><br>
+            <input class="btn_send" type  = "submit" id = "btn_send" value = "登陆">
         </ol>
     </ul>
-    <a href="url" style="align-self: auto">忘记密码？</a>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
 
-    <br>
-    &nbsp &nbsp &nbsp &nbsp  &nbsp
-    <img src="威信.png" width="60" height="60">&nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp
-    <img src="微信公众号.png"width="60" height="60">&nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp&nbsp &nbsp &nbsp &nbsp
-    <img src="qq.png"width="60" height="60">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp
-    <p>&nbsp &nbsp &nbsp &nbsp  &nbsp 微信 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 微信公众号&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp QQ </p>
-    <a href="威信.png"></a>
-    <a href="微信公众号.png"></a>
+    </style>
+    <a href="url"class = "plink" >忘记密码？</a>
+
+
+    <div id="div4">
+        <a href="#"><img src="威信.png" width="60" height="60"></a>
+        <p>微信 </p>
+
+    </div>
+
+    <div id="div4">
+        <a href="#"><img src="微信公众号.png"width="60" height="60"></a>
+        <p>微信公众号</p>
+    </div>
+
+    <div id="div4">
+        <a href ="#"><img src="qq.png"width="60" height="60"></a>
+        <p align="center">QQ</p>
+    </div>
+
+
 </form>
+
 
 </div>
 
-<div>
+    <form>
+        <div id="div5">
+            <p1 style="color: grey">还没有账号？</p1>
+        <a href="#"><p2 style="color: white">立即注册</p2></a>
+        </div>
+
+    </form>
+
+    <div>
 <footer class="location">
     <hr size="1">
-    <p style="color: white">Copyright © 2013-2017 Tencent Cloud. All Rights Reserved. 腾讯云 版权所有</p>
+    <div id="div6">
+    <p1 style="color: white">Copyright © 2013-2017 Tencent Cloud. All Rights Reserved. 腾讯云 版权所有</p1>
+    </div>
+
+    <div id="div7">
+        <a href="#"><p2  style="color: white" >中文</p2></a>
+        <p4 style="color: white" >&nbsp|&nbsp</p4>
+        <a href="#" style="color: white"><p3>english</p3></a>
+    </div>
 </footer>
 </div>
 

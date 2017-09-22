@@ -1,11 +1,29 @@
+/**{*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+body{
+    background-image: url(https://imgcache.qq.com/open_proj/proj_qcloud_v2/gateway/login-regist/css/img/qcloud-login-bg.jpg?nowebp);
+}
+input:focus {
+    border-style: solid;
+    border-color: cornflowerblue;
+}
+
+#header a{
+    text-decoration: none;
+}
+
+
 #div1{
     padding: 2px;
     width: 15px;
     right:30px;
     top:5px;
 }
+
 #div2{
-    margin:auto;
+    margin-top:80px;
     float: left;
 
 }
@@ -13,8 +31,32 @@
     position: fixed;
     top:30px;
     right:20px;
+    width:450px;
     background-color: aliceblue;
+    margin-bottom: 20px;
 
+}
+#div4{
+    margin-top: 30px;
+    margin-left: 60px;
+
+    align-content: center;
+    float:left;
+}
+#div5{
+
+    margin-top:400px;
+    float:right;
+    font-color:#ffff;
+    right:400px;
+}
+#div6{
+    float:left;
+    margin-right: 570px;
+
+}
+#div7{
+    float:right;
 }
 .title{
     font-size:40px;
@@ -48,6 +90,8 @@
     width:300px;
     height:50px;
     align:center;
+    padding-top: 2px;
+    padding-bottom: 2px;
 
 }
 
@@ -56,42 +100,7 @@
     bottom: 0;
 
 }
-#div1{
-    padding: 2px;
-    width: 15px;
-    right:30px;
-    top:5px;
-}
-#div2{
-    margin:auto;
-    float: left;
 
-}
-#div3{
-    position: fixed;
-    top:30px;
-    right:20px;
-    background-color: aliceblue;
-
-}
-.title{
-    font-size:40px;
-    font-family:Microsoft Yahei;
-
-
-}
-
-.retitle{
-    font-size:40px;
-    color:#ffffff;
-    font-family:Microsoft Yahei;
-}
-.liTitle{
-    font-size: 25px;
-    font-color:#ffffff;
-    font-family:Microsoft Yahei;
-
-}
 
 .btn_send{
     color: #ffff20;
@@ -114,3 +123,12 @@
     bottom: 0;
 
 }
+.plink{
+    position: fixed;
+    right:30px;
+
+}
+.language {
+    position: fixed;
+    right:20px;
+    }
